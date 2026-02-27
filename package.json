@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
+    "lint": "eslint src --ext .jsx,.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
