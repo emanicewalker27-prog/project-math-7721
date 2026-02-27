@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Search, Gamepad2, X, Maximize2, ExternalLink, Play } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import gamesData from './data/games.json';
 
 export default function App() {
